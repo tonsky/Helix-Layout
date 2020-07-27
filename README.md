@@ -32,8 +32,8 @@ Download [QMK Toolbox.app](https://github.com/qmk/qmk_toolbox/releases). In the 
 
 Layout and keymap work together to put keys where I want them, when possible. This is EN/RU layout, which led to some compromises.
 
-- `EN` sends F17, `РУ` sends F18.
-- Alt layout mostly compatible with [Ilya Birman Typography Layout](https://ilyabirman.ru/projects/typography-layout/).
+- `EN` sends F13, `РУ` sends F14.
+- Option layout mostly compatible with [Ilya Birman Typography Layout](https://ilyabirman.ru/projects/typography-layout/).
 - Some of the principles from [github.com/tonsky/Universal-Layout](https://github.com/tonsky/Universal-Layout) apply.
 - Navigation arrows do not require Karabiner.
 
