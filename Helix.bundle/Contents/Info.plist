@@ -16,6 +16,8 @@
 		<string>me.tonsky.keyboardlayout.helix.english-helix</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
+		<key>TISIconIsTemplate</key>
+		<true/>
 	</dict>
 	<key>KLInfo_Russian - Helix</key>
 	<dict>
