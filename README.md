@@ -1,6 +1,6 @@
 # Keymap & EN/RU layouts for Helix 60% split keyboard
 
-<img src="./cheatsheet.png">
+![](cheatsheet.png)
 
 ## Building keymap
 
@@ -39,7 +39,7 @@ Layout and keymap work together to put keys where I want them, when possible. Th
 
 ## The physical device
 
-<img src="./photo.jpg">
+![](photo.jpg)
 
 ## Where to buy
 
