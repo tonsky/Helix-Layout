@@ -20,6 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define MASTER_RIGHT
+
 // place overrides here
 
 // If you need more program area, try select and reduce rgblight modes to use.
