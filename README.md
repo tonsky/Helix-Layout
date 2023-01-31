@@ -16,13 +16,14 @@ Then
 ```
 cd ~/ws
 git clone git@github.com:tonsky/Helix-Layout.git
-ln -s ~/ws/Helix-Layout/keymap ~/qmk_firmware/keyboards/helix/rev2/keymaps/tonsky
-qmk compile -kb helix/rev2 -km tonsky
+ln -s ~/ws/Helix-Layout/keymap ~/qmk_firmware/keyboards/helix/rev3_5rows/keymaps/tonsky
+cd ~/qmk_firmware
+make helix/rev3_5rows:tonsky
 ```
 
 Download [QMK Toolbox.app](https://github.com/qmk/qmk_toolbox/releases). In the app:
 
-- Local file -> Open `~/qmk_firmware/helix_rev2_tonsky.hex`
+- Local file -> Open `~/qmk_firmware/helix_rev3_5rows_tonsky.hex`
 - MCU: `atmega32u4`
 - Auto-flash: `checked`
 - Press reset switch on the keyboard
