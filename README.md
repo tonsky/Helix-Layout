@@ -16,9 +16,9 @@ Then
 ```
 cd ~/ws
 git clone git@github.com:tonsky/Helix-Layout.git
-ln -s ~/ws/Helix-Layout/keymap ~/qmk_firmware/keyboards/helix/rev3_5rows/keymaps/tonsky
+ln -s ~/ws/Helix-Layout/keymaps/tonksy ~/qmk_firmware/keyboards/helix/rev3_5rows/keymaps/tonsky
 cd ~/qmk_firmware
-make helix/rev3_5rows:tonsky
+qmk compile -kb helix/rev3 -km tonsky
 ```
 
 Download [QMK Toolbox.app](https://github.com/qmk/qmk_toolbox/releases). In the app:
